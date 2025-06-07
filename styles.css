@@ -1,0 +1,42 @@
+<style>
+  body {
+    background: blue;
+    font-family: sans-serif;
+  }
+header {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+nav-menu{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  list-style: none;
+  margin-top: 1rem;
+}
+main {
+  margin-top: 1rem;
+}
+produk {
+  background: green;
+  padding: 1rem;
+  border-radius: 5px;
+}
+produk-item {
+  background: pink;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+@media (min-width: 320px) {
+  .nav-menu {
+    flex-direction: row;
+    justify-content: center;
+  }
+  produk-item {
+    display: inline-block;
+    width: 48%;
+    margin-right: 2%;
+  }

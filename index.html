@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toko Online</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>TokoKita</h1>
+    <nav>
+      <ul class="menu">
+        <li><a href="#">Beranda</a></li>
+        <li><a href="#">Produk</a></li>
+        <li><a href="#">Keranjang</a></li>
+        <li><a href="#">Kontak</a></li>
+      </ul>
+      <button class="cart-btn">🛒</button>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Produk Terbaru</h2>
+      <article class="produk">
+        <h3>Kaos Polos</h3>
+        <p>Kaos nyaman untuk harian.</p>
+        <p>Rp 50.000</p>
+      </article>
+      <article class="produk">
+        <h3>Jaket Hoodie</h3>
+        <p>Hangat dan stylish.</p>
+        <p>Rp 150.000</p>
+      </article>
+      <article class="produk">
+        <h3>Sepatu Sneaker</h3>
+        <p>Nyaman untuk berjalan jauh.</p>
+        <p>Rp 300.000</p>
+      </article>
+    </section>
+
+    <section>
+      <h2>Kategori</h2>
+      <ul>
+        <li>Pakaian</li>
+        <li>Sepatu</li>
+        <li>Aksesoris</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Tentang Kami</h2>
+      <p>Kami adalah toko online yang menjual produk fashion kekinian dengan harga terjangkau.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 TokoKita. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+<style>
+  body {
+    background: blue;
+    font-family: sans-serif;
+  }
+header {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+nav-menu{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  list-style: none;
+  margin-top: 1rem;
+}
+main {
+  margin-top: 1rem;
+}
+produk {
+  background: green;
+  padding: 1rem;
+  border-radius: 5px;
+}
+produk-item {
+  background: pink;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+@media (min-width: 320px) {
+  .nav-menu {
+    flex-direction: row;
+    justify-content: center;
+  }
+  produk-item {
+    display: inline-block;
+    width: 48%;
+    margin-right: 2%;
+  }
+
+
+
+  
+
